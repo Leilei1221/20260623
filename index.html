@@ -1,1 +1,23 @@
-hi
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>網頁忍者遊戲</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>網頁忍者（簡易版）</h1>
+    <p class="controls">控制：← → 移動，↑ 跳躍，空白鍵 投擲手裡劍。按 R 重新開始。</p>
+    <canvas id="game" width="800" height="450"></canvas>
+    <div id="hud">
+      <span id="score">得分: 0</span>
+      <span id="lives">生命: 3</span>
+      <span id="status"></span>
+    </div>
+    <p class="credit">作者：自動產生範例 - 可在本地直接打開 index.html 遊玩</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

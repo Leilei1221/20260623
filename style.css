@@ -1,0 +1,12 @@
+/* style.css - 基本樣式 */
+html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans',Arial;background:linear-gradient(#0d0f1a,#111827);color:#e6eef8}
+.container{max-width:900px;margin:24px auto;padding:16px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:8px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+h1{margin:0 0 8px 0;font-size:20px}
+.controls{margin:0 0 12px 0;color:#a9b4c7}
+canvas{display:block;background:#8fc3ff33;border-radius:6px;box-shadow:inset 0 -40px 60px rgba(0,0,0,0.15);margin:0 auto}
+#hud{display:flex;gap:16px;align-items:center;margin-top:8px;color:#e6eef8}
+#hud span{background:rgba(0,0,0,0.35);padding:6px 10px;border-radius:6px;font-weight:600}
+.credit{margin-top:10px;color:#9fb0c8;font-size:13px}
+button{appearance:none}
+
+/* Canvas helper classes (not used directly) */
